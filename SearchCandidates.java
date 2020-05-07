@@ -12,7 +12,7 @@ public class SearchCandidates implements SearchStrategy {
                     return candidate.getUsername();
                 }
 
-            }
+            } 
         }
         return "no candidates found";
     }
